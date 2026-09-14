@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="mt-3 flex gap-3 text-sm text-white/60">
             <Mail aria-hidden="true" size={18} className="mt-0.5 flex-shrink-0" />
             <a href="mailto:hello@britandbeyond.co.uk" className="hover:text-white">
-              Britandbeyondltd@gmail.com
+         Brittandbeyonduk@gmail.com
             </a>
           </div>
           <div className="mt-3 flex gap-3 text-sm text-white/60">

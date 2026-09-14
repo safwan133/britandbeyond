@@ -6,7 +6,7 @@ export const STORE_DETAIL: StoreDetail = {
     hours: [{ days: 'Mon \u2013 Sun', time: '8:00 AM \u2013 9:00 PM' }],
     phone: '+44 7587 704 077',
     phoneHref: 'tel:+44 7587 704 077',
-    email: 'Britandbeyondltd@gmail.com',
+    email: 'Brittandbeyonduk@gmail.com',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=15+High+Ousegate+York+YO1+8RZ',
 };
 
