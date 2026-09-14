@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    /* Default: dark text/border for light mode tabs */
+    circle, text {
+      stroke: #1e293b;
+      fill: #1e293b;
+    }
+    circle { fill: none; }
+
+    /* Automatically turns white when the browser is in dark theme */
+    @media (prefers-color-scheme: dark) {
+      circle, text {
+        stroke: #f8fafc;
+        fill: #f8fafc;
+      }
+      circle { fill: none; }
+    }
+  </style>
+
+  <circle cx="16" cy="16" r="15.5" stroke-width="1" />
+  <text
+    x="16"
+    y="16"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-size="11"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="300"
+    stroke="none"
+  >
+    B&amp;B
+  </text>
+</svg>
